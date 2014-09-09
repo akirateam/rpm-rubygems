@@ -1,11 +1,11 @@
 %global gem_name ckeditor
 
 Name: rubygem-%{gem_name}
-Version: 4.0.11
+Version: 4.1.0
 Release: 1%{?dist}
 Summary: Rails gem for easy integration ckeditor in your application
 Group: Development/Languages
-License: 
+License:  MIT-LICENSE 
 URL: https://github.com/galetahub/ckeditor
 Source0: https://rubygems.org/gems/%{gem_name}-%{version}.gem
 Requires: ruby(release)
@@ -73,5 +73,5 @@ popd
 %doc %{gem_instdir}/README.md
 
 %changelog
-* Tue Sep 09 2014 Roberto Akira Yokota <bob69xxx at gmail.com> - 4.0.11-1
+* Mon Sep 08 2014 Roberto AKira Yokota <bob69xxx at gmail.com> - 4.1.0-1
 - Initial package
