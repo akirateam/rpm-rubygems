@@ -1,4 +1,3 @@
-# Generated from activerecord-4.0.9.gem by gem2rpm -*- rpm-spec -*-
 %global gem_name activerecord
 
 Name: rubygem-%{gem_name}
